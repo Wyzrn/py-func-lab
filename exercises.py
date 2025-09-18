@@ -13,3 +13,11 @@ def simple_interest(principal, rate, time):
 
 # Test the function
 print('Exercise 2:', simple_interest(1000, 5, 2))
+
+# Exercise 3: Apply a Discount
+def apply_discount(price, discount):
+    new_price = price * (1 - discount / 100)
+    return new_price
+
+# Test the function
+print('Exercise 3:', apply_discount(100, 25))

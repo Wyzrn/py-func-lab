@@ -56,3 +56,11 @@ def largest(num1, num2, num3):
 
 # Test the function
 print('Exercise 6:', largest(1, 2, 3))
+
+# Exercise 7: Calculate a Tip
+def calculate_tip(bill, tip_percent):
+    tip = bill * (tip_percent / 100)
+    return tip
+
+# Test the function
+print('Exercise 7:', calculate_tip(50, 20))

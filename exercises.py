@@ -34,3 +34,13 @@ def convert_temperature(temp, unit):
 # Test the function
 print('Exercise 4: Convert 0°C to Fahrenheit:', convert_temperature(0, 'C'))
 print('Exercise 4: Convert 32°F to Celsius:', convert_temperature(32, 'F'))
+
+# Exercise 5: Sum to N
+def sum_to(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+# Test the function
+print('Exercise 5:', sum_to(6))

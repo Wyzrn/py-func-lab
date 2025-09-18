@@ -64,3 +64,13 @@ def calculate_tip(bill, tip_percent):
 
 # Test the function
 print('Exercise 7:', calculate_tip(50, 20))
+
+# Exercise 8: Calculate Product of Numbers
+def product(*args):
+    result = 1
+    for num in args:
+        result *= num
+    return result
+
+# Test the function
+print('Exercise 8:', product(2, 5, 5))
